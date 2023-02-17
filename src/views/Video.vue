@@ -5,6 +5,7 @@
       v-bind="options"
       poster="https://cdn.jsdelivr.net/gh/xdlumia/files/video-play/ironMan.jpg"
     />
+    
   </div>
 </template>
 <script lang="ts" setup>
@@ -17,6 +18,7 @@ const options = reactive({
 //   speed: false, //关闭进度条拖动
   speed: true, //关闭进度条拖动
   title: "", //视频名称
-  src: "https://cdn.jsdelivr.net/gh/xdlumia/files/video-play/IronMan.mp4", //视频源
+//   src: "https://cdn.jsdelivr.net/gh/xdlumia/files/video-play/IronMan.mp4", //视频源
+  src: "http://127.0.0.1:9200/player/video",
 });
 </script>
